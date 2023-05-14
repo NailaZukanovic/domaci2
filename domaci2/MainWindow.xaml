@@ -1,0 +1,45 @@
+﻿<Window x:Class="domaci2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:domaci2"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Transparent" MouseDown="Grid_MouseDown" x:Name="MyGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TopC1" MouseDown="TopC1_MouseDown" ></TextBlock>
+        <TextBlock x:Name="SkakacC1" MouseDown="SkakacC1_MouseDown" ></TextBlock>
+        <TextBlock x:Name="DamaC" MouseDown="DamaC_MouseDown" ></TextBlock>
+        <TextBlock x:Name="KraljC" MouseDown="KraljC_MouseDown"></TextBlock>
+        <TextBlock x:Name="SkakacC2" MouseDown="SkakacC2_MouseDown"></TextBlock>
+        <TextBlock x:Name="TopC2" MouseDown="TopC2_MouseDown"></TextBlock>
+
+        <TextBlock x:Name="TopB1" MouseDown="TopB1_MouseDown" ></TextBlock>
+        <TextBlock x:Name="SkakacB1" MouseDown="SkakacB1_MouseDown"></TextBlock>
+        <TextBlock x:Name="DamaB" MouseDown="DamaB_MouseDown" ></TextBlock>
+        <TextBlock x:Name="KraljB" MouseDown="KraljB_MouseDown" ></TextBlock>
+        <TextBlock x:Name="SkakacB2" MouseDown="SkakacB2_MouseDown"></TextBlock>
+        <TextBlock x:Name="TopB2" MouseDown="TopB2_MouseDown"></TextBlock>
+    </Grid>
+</Window>
